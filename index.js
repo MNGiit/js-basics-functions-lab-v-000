@@ -22,8 +22,11 @@ function distanceFromHqInFeet(distance) {
 }
 
 
-function distanceTravelledInFeet(distance) {
+function distanceTravelledInFeet(distanceOne, distanceTwo) {
+  let feet;
   
+  
+  return feet;
 }
 
 
