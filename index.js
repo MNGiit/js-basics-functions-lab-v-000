@@ -21,3 +21,10 @@ function distanceFromHqInFeet(distance) {
   return blocks;
 }
 
+
+
+
+
+
+
+
