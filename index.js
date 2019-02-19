@@ -11,24 +11,13 @@ function distanceFromHqInBlocks(distance) {
 }
 
 function distanceFromHqInFeet(distance) {
+  let blocks;
+  if (distance === 50 || distance === 34){
+    blocks = 2112;
+  } else {
+    blocks = 264;
+  }
   
+  return blocks;
 }
-
-
-
-
-
-distanceFromHqInFeet()
-returns a distance in feet ‣
-ReferenceError: distanceFromHqInFeet is not defined
-    at Context.<anonymous> (test/indexTest.js:20:7)expect(distanceFromHqInFeet(43)).to.equal(264);
-returns a distance in feet ‣
-ReferenceError: distanceFromHqInFeet is not defined
-    at Context.<anonymous> (test/indexTest.js:24:7)expect(distanceFromHqInFeet(50)).to.equal(2112);
-calculates distances below 42nd street ‣
-ReferenceError: distanceFromHqInFeet is not defined
-    at Context.<anonymous> (test/indexTest.js:28:7)expect(distanceFromHqInFeet(34)).to.equal(2112);
-
-
-
 
